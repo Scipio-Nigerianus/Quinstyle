@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# build outputs
+.svelte-kit/
+build/
+dist/
+
+# local env files
+.env
+.env.*
+! .env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# system files
+.DS_Store
+Thumbs.db
+
+# Vercel and tool logs
+.vercel/
+live_errors.log
+logs.txt
